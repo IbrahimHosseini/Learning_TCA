@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		A507A5052C10A42F003CD5AE /* Learning_TCATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A507A5042C10A42F003CD5AE /* Learning_TCATests.swift */; };
 		A507A50F2C10A42F003CD5AE /* Learning_TCAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A507A50E2C10A42F003CD5AE /* Learning_TCAUITests.swift */; };
 		A507A5112C10A42F003CD5AE /* Learning_TCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A507A5102C10A42F003CD5AE /* Learning_TCAUITestsLaunchTests.swift */; };
+		A59CC4582C11FD1700C05724 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = A59CC4572C11FD1700C05724 /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A59CC4582C11FD1700C05724 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = Learning_TCA;
+			packageProductDependencies = (
+				A59CC4572C11FD1700C05724 /* ComposableArchitecture */,
+			);
 			productName = Learning_TCA;
 			productReference = A507A4F02C10A42D003CD5AE /* Learning_TCA.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = A507A4E72C10A42D003CD5AE;
+			packageReferences = (
+				A59CC4562C11FD1600C05724 /* XCLocalSwiftPackageReference "../../../Downloads/swift-composable-architecture-1.10.4" */,
+			);
 			productRefGroup = A507A4F12C10A42D003CD5AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -588,6 +596,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A59CC4562C11FD1600C05724 /* XCLocalSwiftPackageReference "../../../Downloads/swift-composable-architecture-1.10.4" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../Downloads/swift-composable-architecture-1.10.4";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A59CC4572C11FD1700C05724 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A507A4E82C10A42D003CD5AE /* Project object */;
 }
